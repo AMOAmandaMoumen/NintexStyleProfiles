@@ -19,7 +19,7 @@
 .theme-entry.amoconsultancy .view>.innerpanel
 ,.theme-entry.amoconsultancy.view-canvas>.innerpanel {
     border-radius: var(--view-rounding);
-    border: 1px solid var(--list-column-header-text-color);
+    border: 1px solid lightgrey;
 }
 
 .theme-entry.amoconsultancy .tab-box.tabs-top ul.tab-box-tabs {
