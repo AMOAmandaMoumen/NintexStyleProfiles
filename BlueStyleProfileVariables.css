@@ -6,7 +6,7 @@
 .theme-entry.amoconsultancy {
     --error-text-color: #b71c1c;
     color: var(--normal-text-color);
-    --normal-text-color: #4d4d4d;
+    --normal-text-color: red;
     --description-text-color: #4d4d4d;
     --paragraph-text-color: #4d4d4d;
     --page-title-text-color: black;
