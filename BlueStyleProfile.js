@@ -1,6 +1,5 @@
 /*
-	AMO CONSULTANCY - Custom Theme - 30/01/2023
-	- JS that will render and apply classes needed for the css
+	AMO CONSULTANCY - Custom Theme - 01/2023
 */
 
 const HEADER_VIEW_NAME = 'VIEW_HEADER';
@@ -25,7 +24,7 @@ render = () => {
 }
 
 renderBeforeTabs = () => {
-    	$('div[name*="' + HEADER_VIEW_NAME + '"]').insertBefore(".tabs-top");
+    	$('[name*="' + HEADER_VIEW_NAME + '"]').insertBefore(".tabs-top");
 }
 
 renderHeader = () => {
