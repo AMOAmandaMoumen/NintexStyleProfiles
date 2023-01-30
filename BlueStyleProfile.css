@@ -5,7 +5,7 @@
 /* Tabs Title Font Size*/
 .theme-entry.amoconsultancy div[name="VIEW_HEADER_Logo"]{
 	float:left;	
-	border-bottom: 1px solid lightgrey;
+	border-bottom: 2px solid lightgrey;
 }
 .theme-entry.amoconsultancy div[name="VIEW_HEADER_Translator"]{
 	position: absolute!important;
