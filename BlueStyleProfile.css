@@ -36,3 +36,11 @@
 .theme-entry.amoconsultancy .tab-box ul.tab-box-tabs li:last-child {
 	border:none;
 }
+
+
+.theme-entry.amoconsultancy .view .panel-header-wrapper
+,.theme-entry.amoconsultancy .view-canvas .panel-header-wrapper
+,.theme-entry.amoconsultancy .view .grid-header-wrapper
+,.theme-entry.amoconsultancy .view-canvas .grid-header-wrapper{
+		background: linear-gradient(90deg,#01426A,#71DBD4);
+}
