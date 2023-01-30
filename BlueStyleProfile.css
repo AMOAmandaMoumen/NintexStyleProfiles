@@ -1,7 +1,4 @@
-
-.theme-entry .tab-box {
-    text-align: center;
-}
 .theme-entry .tab-box ul.tab-box-tabs a.tab .tab-text {
 	font-size: large;
+	text-align: center;
 }
