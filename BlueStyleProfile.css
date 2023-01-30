@@ -23,12 +23,7 @@
     border-radius: var(--view-rounding);
     border: 1px solid lightgrey;
 }
-
-.theme-entry.amoconsultancy .tab-box.tabs-top ul.tab-box-tabs {
-	border: none;	
-	display: flex;
-}
-
+/* MENU - BEGIN */
 .theme-entry.amoconsultancy .tab-box ul.tab-box-tabs li {
 	margin: 0px;
 	border-right: 2px solid #01426A;
@@ -37,10 +32,13 @@
 .theme-entry.amoconsultancy .tab-box ul.tab-box-tabs li:last-child {
 	border:none;
 }
+/* MENU - END */
 
+/* VIEW HEADER - BEGIN */
 .theme-entry.amoconsultancy .view .panel-header-wrapper
 ,.theme-entry.amoconsultancy .view-canvas .panel-header-wrapper
 ,.theme-entry.amoconsultancy .view .grid-header-wrapper
 ,.theme-entry.amoconsultancy .view-canvas .grid-header-wrapper{
 		background: linear-gradient(90deg,#01426A,#71DBD4);
 }
+/* VIEW HEADER - END */
