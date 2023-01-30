@@ -2,7 +2,6 @@
 	AMO CONSULTANCY - Custom Theme - 01/2023
 */
 
-
 /* Tabs Title Font Size*/
 .theme-entry.amoconsultancy div[name="VIEW_HEADER_Logo"]{
 	position:absolute;	
@@ -18,7 +17,7 @@
 
 .theme-entry.amoconsultancy .tab-box ul{
 	width: 50%;
-    margin-left: 30%;
+    	margin-left: 30%;
 	padding-top: 30px;
 	height: 60px;
 }
@@ -27,12 +26,12 @@
 .theme-entry.amoconsultancy .tab-box ul.tab-box-tabs a.tab .tab-text{
 	font-size: medium;	
 	margin-left: 30px;
-    margin-right: 30px;
+    	margin-right: 30px;
 }
 
 .theme-entry.amoconsultancy .view>.innerpanel
 ,.theme-entry.amoconsultancy.view-canvas>.innerpanel {
-    border-radius: var(--view-rounding);
+    		border-radius: var(--view-rounding);
     border: 1px solid lightgrey;
 }
 /* MENU - BEGIN */
@@ -51,6 +50,6 @@
 ,.theme-entry.amoconsultancy .view-canvas .panel-header-wrapper
 ,.theme-entry.amoconsultancy .view .grid-header-wrapper
 ,.theme-entry.amoconsultancy .view-canvas .grid-header-wrapper{
-		background: linear-gradient(90deg,#01426A,#71DBD4);
+	background: linear-gradient(90deg,#01426A,#71DBD4);
 }
 /* VIEW HEADER - END */
