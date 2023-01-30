@@ -1,6 +1,5 @@
-const BANNER_VIEW_NAME = 'BANNER';
+const HEADER_VIEW_NAME = 'VIEW_TOP_BANNER';
 const REQUEST_LIST_VIEW_NAME = 'VIEW_REQUEST_LIST';
-const HEADER_VIEW_NAME = 'HEADER';
 
 $(document).ready(function() {
     enableTheme();
