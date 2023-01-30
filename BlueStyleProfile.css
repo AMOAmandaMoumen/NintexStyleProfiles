@@ -1,3 +1,16 @@
 /*
 	AMO CONSULTANCY - Custom Theme - 01/2023
 */
+
+/* Tabs Title Font Size*/
+[name="VIEW_HEADER_Logo"]{
+	float:left;	
+}
+[name="VIEW_HEADER_Translator"]{
+	position: absolute;
+}
+
+/* Tabs Title Font Size*/
+.theme-entry .tab-box ul.tab-box-tabs a.tab .tab-text{
+	font-size: medium;	
+}
