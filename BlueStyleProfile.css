@@ -9,12 +9,13 @@
 }
 .theme-entry.amoconsultancy div[name="VIEW_HEADER_Translator"]{
 	position: absolute!important;
-	right: 40px;
+	right: 30px;
+	top: 20px;
 }
 
 .theme-entry.amoconsultancy .tab-box ul{
 	width: 50%;
-    	margin-left: 30%;
+    	margin-left: 50%;
 	padding-top: 30px;
 	height: 60px;
 }
