@@ -30,13 +30,12 @@
 
 .theme-entry.amoconsultancy .tab-box ul.tab-box-tabs li {
 	margin: 0px;
-	border-right: 3px solid #71dbd4;
+	border-right: 2px solid #01426A;
 }
 
 .theme-entry.amoconsultancy .tab-box ul.tab-box-tabs li:last-child {
 	border:none;
 }
-
 
 .theme-entry.amoconsultancy .view .panel-header-wrapper
 ,.theme-entry.amoconsultancy .view-canvas .panel-header-wrapper
