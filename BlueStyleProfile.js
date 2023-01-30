@@ -1,6 +1,6 @@
 /*
-    AMO CONSULTANCY - Custom theme - 30/01/2023
-    - JS that will render and apply classes needed for the css
+	AMO CONSULTANCY - Custom Theme - 30/01/2023
+	- JS that will render and apply classes needed for the css
 */
 
 const HEADER_VIEW_NAME = 'VIEW_TOP_BANNER';
