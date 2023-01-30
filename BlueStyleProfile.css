@@ -3,10 +3,10 @@
 */
 
 /* Tabs Title Font Size*/
-[name="VIEW_HEADER_Logo"]{
+div[name="VIEW_HEADER_Logo"]{
 	float:left;	
 }
-[name="VIEW_HEADER_Translator"]{
+div[name="VIEW_HEADER_Translator"]{
 	position: absolute;
 }
 
