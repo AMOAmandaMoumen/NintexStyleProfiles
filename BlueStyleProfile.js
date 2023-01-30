@@ -6,7 +6,6 @@
 const HEADER_VIEW_NAME = 'VIEW_HEADER';
 const HEADER_LOGO_VIEW_NAME = 'VIEW_HEADER_Logo';
 const HEADER_TRANSLATION_VIEW_NAME = 'VIEW_HEADER_Translator';
-const REQUEST_LIST_VIEW_NAME = 'VIEW_REQUEST_LIST';
 
 $(document).ready(function() {
 	enableTheme();
@@ -21,17 +20,17 @@ enableTheme = () => {
 }
 
 render = () => {
+	renderBeforeTabs();
 	renderHeader();
-	renderListView();
+}
+
+renderBeforeTabs = () => {
+    	$('div[name*="' + HEADER_VIEW_NAME + '"]').insertBefore(".tabs-top");
 }
 
 renderHeader = () => {
     	$('div[name*="' + HEADER_VIEW_NAME + '"]').closest('.view').addClass('header');
-    	$('div[name*="' + HEADER_VIEW_NAME + '"]').insertBefore(".tabs-top");
-	$('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.view').addClass('logo');
-	$('div[name="' + HEADER_TRANSLATION_VIEW_NAME + '"]').closest('.view').addClass('translator');
+		$('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.view').addClass('logo');
+		$('div[name="' + HEADER_TRANSLATION_VIEW_NAME + '"]').closest('.view').addClass('translator');
 }
 
-renderListView = () => {
-    	$('div[name="' + REQUEST_LIST_VIEW_NAME + '"]').closest('.view').addClass('requests');
-}
