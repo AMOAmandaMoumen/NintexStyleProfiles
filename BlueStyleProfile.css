@@ -1,3 +1,10 @@
 .theme-entry .tab-box ul.tab-box-tabs a.tab .tab-text {
 	font-size: large;
 }
+ul .tab-box-tabs {
+	text-align: end;
+}
+.view {
+	border: 1px solid lightgrey;
+    border-radius: 5px;
+}
