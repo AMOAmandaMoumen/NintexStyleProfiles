@@ -3,20 +3,25 @@
 */
 
 /* Tabs Title Font Size*/
-div[name="VIEW_HEADER_Logo"]{
+.theme-entry.amoconsultancy div[name="VIEW_HEADER_Logo"]{
 	float:left;	
+	border-bottom: 1px solid lightgrey;
 }
-div[name="VIEW_HEADER_Translator"]{
+.theme-entry.amoconsultancy div[name="VIEW_HEADER_Translator"]{
 	position: absolute!important;
 }
 
 /* Tabs Title Font Size*/
-.theme-entry .tab-box ul.tab-box-tabs a.tab .tab-text{
+.theme-entry.amoconsultancy .tab-box ul.tab-box-tabs a.tab .tab-text{
 	font-size: medium;	
 }
 
-.theme-entry .view>.innerpanel
-,.theme-entry .view-canvas>.innerpanel {
+.theme-entry.amoconsultancy .view>.innerpanel
+,.theme-entry.amoconsultancy.view-canvas>.innerpanel {
     border-radius: var(--view-rounding);
     border: 1px solid var(--list-column-header-text-color);
+}
+
+.theme-entry.amoconsultancy .tab-box.tabs-top ul.tab-box-tabs {
+	border: none;	
 }
