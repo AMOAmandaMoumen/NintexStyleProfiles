@@ -14,8 +14,8 @@
 /* Tabs Title Font Size*/
 .theme-entry.amoconsultancy .tab-box ul.tab-box-tabs a.tab .tab-text{
 	font-size: medium;	
-	margin-left: 25px;
-    margin-right: 25px;
+	margin-left: 30px;
+    margin-right: 30px;
 }
 
 .theme-entry.amoconsultancy .view>.innerpanel
@@ -26,6 +26,7 @@
 
 .theme-entry.amoconsultancy .tab-box.tabs-top ul.tab-box-tabs {
 	border: none;	
+	display: flex;
 }
 
 .theme-entry.amoconsultancy .tab-box ul.tab-box-tabs li {
