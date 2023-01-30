@@ -12,10 +12,10 @@ $(document).ready(function() {
 });
 
 enableTheme = () => {
-    $('body').addClass('roullier');
-    $('form').addClass('roullier');
-    $('.runtime-content').addClass('roullier');
-    $('.runtime-form').addClass('roullier');
+    $('body').addClass('amoconsultancy');
+    $('form').addClass('amoconsultancy');
+    $('.runtime-content').addClass('amoconsultancy');
+    $('.runtime-form').addClass('amoconsultancy');
 }
 
 render = () => {
