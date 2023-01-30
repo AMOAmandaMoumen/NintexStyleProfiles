@@ -1,0 +1,9 @@
+html, body, form {
+    padding: 0;
+    margin: 0;
+    background-color: red;
+}
+
+.theme-entry .tab-box ul.tab-box-tabs a.tab .tab-text {
+	font-size: large;
+}
