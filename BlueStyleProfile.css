@@ -8,3 +8,7 @@ ul .tab-box-tabs {
 	border: 1px solid lightgrey;
     	border-radius: 5px;
 }
+.view [name*="VIEW_TOP"]{
+	border: 1px solid RED;
+		
+}
