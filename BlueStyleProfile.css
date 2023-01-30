@@ -14,3 +14,9 @@ div[name="VIEW_HEADER_Translator"]{
 .theme-entry .tab-box ul.tab-box-tabs a.tab .tab-text{
 	font-size: medium;	
 }
+
+.theme-entry .view>.innerpanel
+,.theme-entry .view-canvas>.innerpanel {
+    border-radius: var(--view-rounding);
+    border: 1px solid var(--list-column-header-text-color);
+}

@@ -2,3 +2,6 @@
 	AMO CONSULTANCY - Custom Theme - 01/2023
 */
 
+.theme-entry .amoconsultancy{
+    --view-rounding: 5px;
+}
