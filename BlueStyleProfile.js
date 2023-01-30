@@ -1,1 +1,1 @@
-$('[name*="VIEW_TOP_"]').insertBefore(".tabs-top");
+$('[name="VIEW_TOP_BANNER"]').insertBefore(".tabs-top");
