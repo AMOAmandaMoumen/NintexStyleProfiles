@@ -7,7 +7,7 @@ div[name="VIEW_HEADER_Logo"]{
 	float:left;	
 }
 div[name="VIEW_HEADER_Translator"]{
-	position: absolute;
+	position: absolute!important;
 }
 
 /* Tabs Title Font Size*/
