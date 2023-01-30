@@ -4,11 +4,17 @@
 
 /* Tabs Title Font Size*/
 .theme-entry.amoconsultancy div[name="VIEW_HEADER_Logo"]{
-	float:left;	
-	border-bottom: 2px solid lightgrey;
+	/*float:left;	
+	border-bottom: 2px solid lightgrey;*/
+	background-color: red;
 }
 .theme-entry.amoconsultancy div[name="VIEW_HEADER_Translator"]{
-	position: absolute!important;
+	/*position: absolute!important;*/
+	background-color: blue;
+}
+
+.theme-entry.amoconsultancy .tab-box ul{
+	background-color: yellow;
 }
 
 /* Tabs Title Font Size*/
