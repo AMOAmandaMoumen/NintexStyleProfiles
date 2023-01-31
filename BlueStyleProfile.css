@@ -10,6 +10,13 @@
     border: 1px solid lightgrey;	
 }
 
+/* View Border */
+.theme-entry.amoconsultancy .view>.innerpanel .noborder
+,.theme-entry.amoconsultancy .view-canvas>.innerpanel .noborder {
+    border-radius: var(--view-rounding);
+    border: none;	
+}
+
 /* View Header Left */
 .theme-entry.amoconsultancy div[name="VIEW_HEADER_Logo"]{	
 	border-bottom: 2px solid lightgrey;
