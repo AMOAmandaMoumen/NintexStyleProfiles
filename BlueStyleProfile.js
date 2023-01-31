@@ -10,4 +10,4 @@ $('.runtime-form').addClass('amoconsultancy');
 $('[name*="VIEW_HEADER"]').closest('.tabs-top').addClass('tabsinheader');
 $('[name*="NO_BORDER"]').closest('.innerpanel').addClass('noborder');
 
-$('[name*="VIEW_HEADER"]').insertBefore('.runtime-form');
+$('[name*="VIEW_HEADER"]').insertBefore('.runtime-content');
