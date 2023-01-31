@@ -7,5 +7,4 @@ $('form').addClass('amoconsultancy');
 $('.runtime-content').addClass('amoconsultancy');
 $('.runtime-form').addClass('amoconsultancy');
 $('[name*="VIEW_HEADER"]').insertBefore(".tabs-top");
-
-
+$('[name*="VIEW_HEADER"]').closest('.tabs-top').addClass('tabsinheader');

@@ -4,7 +4,7 @@
 
 /* Tabs Title Font Size*/
 .theme-entry.amoconsultancy div[name="VIEW_HEADER_Logo"]{
-	position: absolute;	
+	position: absolute;
 	border-bottom: 2px solid lightgrey;
 }
 .theme-entry.amoconsultancy div[name="VIEW_HEADER_Translator"]{
@@ -13,7 +13,7 @@
 	top: 20px;
 }
 
-.theme-entry.amoconsultancy .tab-box ul{
+.theme-entry.amoconsultancy .tab-box .tabsinheader ul {
 	width: 50%;
     margin-left: 50%;
 	padding-top: 30px;
@@ -55,9 +55,9 @@
 
 .theme-entry.amoconsultancy [name*="dl_KPI_"]{
 	box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
-    	padding: 30px;
-    	color: #71DBD4;
-    	border: 1px solid lightgrey;
+    padding: 30px;
+    color: #71DBD4;
+    border: 1px solid lightgrey;
 	text-shadow: 1px 1px 1px lightskyblue;
 }
 
