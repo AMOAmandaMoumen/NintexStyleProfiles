@@ -25,9 +25,9 @@
 /* View Header Right */
 .theme-entry.amoconsultancy div[name="VIEW_HEADER_Translator"]{
 	position: absolute!important;
-	right: 30px;
+	right: 40px;
 	top: 20px;
-	width: 30%;
+	width: 30%!important;
 }
 
 /* Tabs in Header View */
