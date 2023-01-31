@@ -2,17 +2,28 @@
 	AMO CONSULTANCY - Custom Theme - 01/2023
 */
 
-/* Tabs Title Font Size*/
-.theme-entry.amoconsultancy div[name="VIEW_HEADER_Logo"]{
-	position: absolute;
+
+/* View Border */
+.theme-entry.amoconsultancy .view>.innerpanel
+,.theme-entry.amoconsultancy.view-canvas>.innerpanel {
+    border-radius: var(--view-rounding);
+    border: 1px solid lightgrey;	
+}
+
+/* View Header Left */
+.theme-entry.amoconsultancy div[name="VIEW_HEADER_Logo"]{	
 	border-bottom: 2px solid lightgrey;
 }
+
+/* View Header Right */
 .theme-entry.amoconsultancy div[name="VIEW_HEADER_Translator"]{
 	position: absolute!important;
 	right: 30px;
 	top: 20px;
+	width: 30%;
 }
 
+/* Tabs in Header View */
 .theme-entry.amoconsultancy .tab-box .tabsinheader ul {
 	width: 50%;
     margin-left: 50%;
@@ -20,50 +31,35 @@
 	height: 60px;
 }
 
-/* Tabs Title Font Size*/
+/* Tabs style */
 .theme-entry.amoconsultancy .tab-box ul.tab-box-tabs a.tab .tab-text{
 	font-size: medium;	
 	margin-left: 30px;
    	margin-right: 30px;
 }
 
-.theme-entry.amoconsultancy .view>.innerpanel
-,.theme-entry.amoconsultancy.view-canvas>.innerpanel {
-    border-radius: var(--view-rounding);
-    border: 1px solid lightgrey;
-	width: 80%;
-}
-/* MENU - BEGIN */
+/* Tabs Border Right */
 .theme-entry.amoconsultancy .tab-box ul.tab-box-tabs li {
-	margin: 0px;
 	border-right: 2px solid #01426A;
 }
-
 .theme-entry.amoconsultancy .tab-box ul.tab-box-tabs li:last-child {
 	border:none;
 }
-/* MENU - END */
 
-/* VIEW HEADER - BEGIN */
+
+/* All Views Header Gradient Color */
 .theme-entry.amoconsultancy .view .panel-header-wrapper
 ,.theme-entry.amoconsultancy .view-canvas .panel-header-wrapper
 ,.theme-entry.amoconsultancy .view .grid-header-wrapper
 ,.theme-entry.amoconsultancy .view-canvas .grid-header-wrapper{
 	background: linear-gradient(90deg,#01426A,#71DBD4);
 }
-/* VIEW HEADER - END */
 
+/* Datalabels KPIs Borders */
 .theme-entry.amoconsultancy [name*="dl_KPI_"]{
 	box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
-    padding: 30px;
+    padding: 20px;
     color: #71DBD4;
     border: 1px solid lightgrey;
 	text-shadow: 1px 1px 1px lightskyblue;
-}
-
-/* VIEW HEADER - END */
-
-
-.theme-entry a:not(.action-row), .theme-entry div, .theme-entry ul, .theme-entry .grid table.grid-content-table {
-	text-align: center;
 }
