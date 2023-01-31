@@ -34,6 +34,7 @@
 ,.theme-entry.amoconsultancy.view-canvas>.innerpanel {
     border-radius: var(--view-rounding);
     border: 1px solid lightgrey;
+	width: 80%;
 }
 /* MENU - BEGIN */
 .theme-entry.amoconsultancy .tab-box ul.tab-box-tabs li {
@@ -54,3 +55,8 @@
 		background: linear-gradient(90deg,#01426A,#71DBD4);
 }
 /* VIEW HEADER - END */
+
+
+.theme-entry a:not(.action-row), .theme-entry div, .theme-entry ul, .theme-entry .grid table.grid-content-table {
+	text-align: center;
+}
