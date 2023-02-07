@@ -27,7 +27,7 @@ renderHeader = () => {
 	$('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.view').addClass('header-left');
 	$('div[name="' + HEADER_TRANSLATOR_VIEW_NAME + '"]').closest('.view').addClass('header-right');
 	$('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.row').addClass('header');
-	$('.header').insertBefore($('.runtime-content'));
+	/*$('.header').insertBefore($('.runtime-content'));*/
 }
 
 renderKPIs = () => {
