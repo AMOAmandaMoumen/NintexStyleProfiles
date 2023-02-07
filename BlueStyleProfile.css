@@ -28,6 +28,20 @@
 .theme-entry .amo .header{	
 	border-bottom: 2px solid lightgrey;
 }
+.theme-entry .amo .header .view .header-left{	
+	width: 80% !important;
+	margin: none;
+}
+.theme-entry .amo .header .view .header-right{	
+	width: 20% !important;
+	margin-top: 20px;
+}
+.theme-entry .amo .header .view .header-left a.SourceCode-Forms-Controls-Web-Button{	
+	color: --tab-text-color;
+    width: 200px;
+    font-size: initial;
+    text-transform: uppercase;
+}
 
 /* Datalabels KPIs Borders */
 .theme-entry .amo .kpis h3{
