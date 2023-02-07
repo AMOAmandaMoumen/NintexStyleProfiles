@@ -1,72 +1,63 @@
 /*
-	AMO CONSULTANCY - Custom Theme - 01/2023
+	AMO CONSULTANCY - Custom Theme - 02/2023
 */
 
-
-/* View Border */
-.theme-entry.amoconsultancy .view>.innerpanel
-,.theme-entry.amoconsultancy.view-canvas>.innerpanel {
-    border-radius: var(--view-rounding);
-    border: 1px solid lightgrey;	
+/* Views Header - Gradient Color */
+ .theme-entry .amo .view .panel-header-wrapper
+,.theme-entry .amo .view-canvas .panel-header-wrapper
+,.theme-entry .amo .view .grid-header-wrapper
+,.theme-entry .amo .view-canvas .grid-header-wrapper{
+	background: linear-gradient(90deg,#01426A,#71DBD4);
 }
 
-/* View Border */
-.theme-entry.amoconsultancy .view>.innerpanel .noborder
-,.theme-entry.amoconsultancy .view-canvas>.innerpanel .noborder {
+/* Views Border */
+.theme-entry .amo .view>.innerpanel
+,.theme-entry.amo.view-canvas>.innerpanel {
     border-radius: var(--view-rounding);
-    border: none;	
+    border: 1px solid --view-border-color;	
+}
+
+/* Views Header */
+.theme-entry .amo .header{	
+	border-bottom: 2px solid --view-border-color;
 }
 
 /* View Header Left */
-.theme-entry.amoconsultancy div[name="VIEW_HEADER_Logo"]{	
-	border-bottom: 2px solid lightgrey;
+.theme-entry .amo .header .headerleft{	
+	
 }
 
 /* View Header Right */
-.theme-entry.amoconsultancy div[name="VIEW_HEADER_Translator"]{
+.theme-entry .amo .header .headerright{
 	position: absolute!important;
 	right: 40px;
 	top: 20px;
 	width: 30%!important;
 }
 
-/* Tabs in Header View */
-.theme-entry.amoconsultancy .tab-box .tabsinheader ul {
-	width: 50%;
-    margin-left: 50%;
-	padding-top: 30px;
-	height: 60px;
-}
-
-/* Tabs style */
-.theme-entry.amoconsultancy .tab-box ul.tab-box-tabs a.tab .tab-text{
-	font-size: medium;	
-	margin-left: 30px;
-   	margin-right: 30px;
-}
-
-/* Tabs Border Right */
-.theme-entry.amoconsultancy .tab-box ul.tab-box-tabs li {
-	border-right: 2px solid #01426A;
-}
-.theme-entry.amoconsultancy .tab-box ul.tab-box-tabs li:last-child {
-	border:none;
-}
-
-
-/* All Views Header Gradient Color */
-.theme-entry.amoconsultancy .view .panel-header-wrapper
-,.theme-entry.amoconsultancy .view-canvas .panel-header-wrapper
-,.theme-entry.amoconsultancy .view .grid-header-wrapper
-,.theme-entry.amoconsultancy .view-canvas .grid-header-wrapper{
-	background: linear-gradient(90deg,#01426A,#71DBD4);
-}
-
 /* Datalabels KPIs Borders */
-.theme-entry.amoconsultancy [name*="dl_KPI_"]{
+.theme-entry .amo .kpis h3{
 	box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
     padding: 20px;
     color: #71DBD4;
     border: 1px solid lightgrey;
 	text-shadow: 1px 1px 1px lightskyblue;
 }
+
+
+/* Tabs style 
+.theme-entry .amo .tab-box ul.tab-box-tabs a.tab .tab-text{
+	font-size: medium;	
+	margin-left: 30px;
+   	margin-right: 30px;
+}*/
+
+/* Tabs Border Right 
+.theme-entry .amo .tab-box ul.tab-box-tabs li {
+	border-right: 2px solid #01426A;
+}
+.theme-entry .amo .tab-box ul.tab-box-tabs li:last-child {
+	border:none;
+}*/
+
+

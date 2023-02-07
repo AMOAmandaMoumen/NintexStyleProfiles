@@ -1,13 +1,36 @@
 /*
-	AMO CONSULTANCY - Custom Theme - 01/2023
+	AMO CONSULTANCY - Custom Theme - 02/2023
 */
 
-$('body').addClass('amoconsultancy');
-$('form').addClass('amoconsultancy');
-$('.runtime-content').addClass('amoconsultancy');
-$('.runtime-form').addClass('amoconsultancy');
+const KPI_TABLE_NAME = 'Table_PortalKPIs';
+const HEADER_LOGO_VIEW_NAME = 'View_Header_Logo';
+const HEADER_TRANSLATOR_VIEW_NAME = 'View_Header_Translator';
 
-$('[name*="VIEW_HEADER"]').closest('.tabs-top').addClass('tabsinheader');
-$('[name*="NO_BORDER"]').closest('.innerpanel').addClass('noborder');
+$(document).ready(function() {
+    enableTheme();
+    render();
+});
 
-$('[name*="VIEW_HEADER"]').insertBefore('.runtime-content');
+enableTheme = () => {
+    $('body').addClass('amo');
+    $('form').addClass('amo');
+    $('.runtime-content').addClass('amo');
+    $('.runtime-form').addClass('amo');
+}
+
+render = () => {
+    renderHeader();
+    renderKPIs();
+}
+
+renderHeader = () => {    
+	$('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.view').addClass('headerleft');
+	$('div[name="' + HEADER_TRANSLATOR_VIEW_NAME + '"]').closest('.view').addClass('headerright');
+	   
+	/*$('[name*="VIEW_HEADER"]').closest('.tabs-top').addClass('tabsinheader');*/
+	/*$('[name*="VIEW_HEADER"]').insertBefore('.runtime-content');*/
+}
+
+renderKPIs = () => {
+    $('div[name="' + KPI_TABLE_NAME + '"]').closest('.formcontrol').addClass('kpis');
+}
