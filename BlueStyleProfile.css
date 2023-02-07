@@ -2,6 +2,13 @@
 	AMO CONSULTANCY - Custom Theme - 02/2023
 */
 
+/* Variables */
+.theme-entry .amo{
+    --view-rounding: 5px;
+	--button-rounding: 5px;
+	--main-text-size: 1.4rem;
+}
+
 /* Views Header - Gradient Color */
  .theme-entry .amo .view .panel-header-wrapper
 ,.theme-entry .amo .view-canvas .panel-header-wrapper
@@ -24,7 +31,7 @@
 
 /* View Header Left */
 .theme-entry .amo .header-left{	
-	
+	border: 1px solid red;
 }
 
 /* View Header Right */
@@ -33,6 +40,7 @@
 	right: 40px;
 	top: 20px;
 	width: 30%!important;
+	border: 1px solid blue;
 }
 
 /* Datalabels KPIs Borders */
