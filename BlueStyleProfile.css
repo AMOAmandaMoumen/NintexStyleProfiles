@@ -23,12 +23,12 @@
 }
 
 /* View Header Left */
-.theme-entry .amo .header .headerleft{	
+.theme-entry .amo .header-left{	
 	
 }
 
 /* View Header Right */
-.theme-entry .amo .header .headerright{
+.theme-entry .amo .header-right{
 	position: absolute!important;
 	right: 40px;
 	top: 20px;

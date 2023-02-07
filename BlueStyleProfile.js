@@ -24,11 +24,9 @@ render = () => {
 }
 
 renderHeader = () => {    
-	$('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.view').addClass('headerleft');
-	$('div[name="' + HEADER_TRANSLATOR_VIEW_NAME + '"]').closest('.view').addClass('headerright');
-	   
-	/*$('[name*="VIEW_HEADER"]').closest('.tabs-top').addClass('tabsinheader');*/
-	/*$('[name*="VIEW_HEADER"]').insertBefore('.runtime-content');*/
+	$('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.view').addClass('header-left');
+	$('div[name="' + HEADER_TRANSLATOR_VIEW_NAME + '"]').closest('.view').addClass('header-right');
+	$('div[name="' + HEADER_LOGO_VIEW_NAME + '"]').closest('.row').addClass('header');	
 }
 
 renderKPIs = () => {
