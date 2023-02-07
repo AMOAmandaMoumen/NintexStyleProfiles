@@ -29,16 +29,6 @@
 	border-bottom: 2px solid lightgrey;
 }
 
-/* View Header Left */
-.theme-entry .amo .header-left{	
-	border: 1px solid red;
-}
-
-/* View Header Right */
-.theme-entry .amo .header-right{
-	border: 1px solid blue;
-}
-
 /* Datalabels KPIs Borders */
 .theme-entry .amo .kpis h3{
 	box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
