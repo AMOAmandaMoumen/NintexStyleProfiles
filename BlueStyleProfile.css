@@ -41,6 +41,7 @@
     width: 200px;
     font-size: initial;
     text-transform: uppercase;
+	border: none;
 }
 
 /* Datalabels KPIs Borders */
