@@ -36,10 +36,6 @@
 
 /* View Header Right */
 .theme-entry .amo .header-right{
-	position: absolute!important;
-	right: 40px;
-	top: 20px;
-	width: 30%!important;
 	border: 1px solid blue;
 }
 
