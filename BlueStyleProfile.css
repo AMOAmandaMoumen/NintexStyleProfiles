@@ -12,6 +12,7 @@
 /* Views Header */
 .theme-entry.amo .row.header{	
 	border-bottom: 2px solid lightgrey;
+	background-color: white;
 }
 .theme-entry.amo .row.header .view.header-left{	
 	width: 80% !important;
@@ -40,6 +41,11 @@
 }
 .theme-entry.amo .row.header .view>.innerpanel, .theme-entry.amo .row.header .view-canvas>.innerpanel {
     border: none;
+}
+
+/* Hide Tabs */
+.theme-entry.amo  .tab-box ul.tab-box-tabs.hidetabs{
+	display: none;
 }
 
 /* Views Header - Gradient Color */
@@ -71,6 +77,7 @@
     box-shadow: 0px 0px 10px 3px rgb(211 211 211);
     margin: 12px;
     width: 80%;
+	background-color: white;
 }
 }
 
