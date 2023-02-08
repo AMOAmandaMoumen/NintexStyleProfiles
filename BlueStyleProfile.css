@@ -13,21 +13,32 @@
 .theme-entry.amo .row.header{	
 	border-bottom: 2px solid lightgrey;
 }
-.theme-entry.amo .view.header-left{	
+.theme-entry.amo .row.header .view.header-left{	
 	width: 80% !important;
 	margin: 0px !important;
 }
-.theme-entry.amo .view.header-right{	
+.theme-entry.amo .row.header .view.header-right{	
 	width: 20% !important;
 	margin-top: 20px !important;
 }
-.theme-entry.amo .header .view.header-left a.SourceCode-Forms-Controls-Web-Button{	
-	color: --tab-text-color;
+.theme-entry.amo .row.header .view.header-left a.SourceCode-Forms-Controls-Web-Button:hover {
+    color: #71DBD4;
+}
+.theme-entry.amo .row.header .view.header-left a.SourceCode-Forms-Controls-Web-Button {
+    color: #01426A;
     width: 200px;
     font-size: initial;
     text-transform: uppercase;
-	border: none;
+    border: none;
+    background-color: white;
+    border-right: 3px solid #01426A;
+    border-radius: 0px;
+    font-weight: 600;
 }
+.theme-entry.amo .row.header .view.header-left a.SourceCode-Forms-Controls-Web-Button:last-child {
+    border: none;
+}
+
 
 /* Views Header - Gradient Color */
  .theme-entry.amo .view .panel-header-wrapper
