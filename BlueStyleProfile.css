@@ -38,7 +38,9 @@
 .theme-entry.amo .row.header .view.header-left a.SourceCode-Forms-Controls-Web-Button:last-child {
     border: none;
 }
-
+.theme-entry.amo .row.header .view>.innerpanel, .theme-entry.amo .row.header .view-canvas>.innerpanel {
+    border: none;
+}
 
 /* Views Header - Gradient Color */
  .theme-entry.amo .view .panel-header-wrapper
