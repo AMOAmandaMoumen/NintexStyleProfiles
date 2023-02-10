@@ -16,24 +16,6 @@
   width: 17%;
   position: relative;
 }
-.col-3:first-child .process-step:before {
-    content: '1';
-}
-.col-3:nth-child(2) .process-step:before{
-    content: '2';
-}
-.col-3:nth-child(3) .process-step:before {
-    content: '3';
-}
-.col-3:nth-child(4) .process-step:before{
-    content: '4';
-}
-.col-3:nth-child(5)  .process-step:before{
-    content: '5';
-}
-.col-3:nth-child(6)  .process-step:before{
-    content: '6';
-}
 .process-main .col-3:not(:first-child):before{
     content: "";
     display: block;
