@@ -38,7 +38,9 @@
 .process-step-cont {
     font-size: 14px;
     white-space: nowrap;
-    display: flex;
+    /*display: flex;*/
+	margin-left: 40%;
+	position: relative;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
