@@ -10,13 +10,16 @@
 .process-wrap {
 	width: 100%;
 }
+
 .process-main {
     display: flex;
 }
+
 .col-3 {
 	width: 20%;
 	position: relative;
 }
+
 .process-main .col-3:not(:first-child):before{
     content: "";
     display: block;
@@ -36,6 +39,7 @@
     -webkit-transition: .4s;
      transition: .4s;
 }
+
 .process-step-cont {
     font-size: 14px;
     white-space: nowrap;
@@ -47,6 +51,7 @@
     justify-content: center;
     position: sticky;
 }
+
 .process-step {
     border: 5px #ebebeb solid;
     border-radius: 100%;
@@ -70,6 +75,7 @@
     width: 100%;
     text-align: center;
 }
+
 .active-step2 .col-3:first-child,
 .active-step3 .col-3:nth-child(-n+2),
 .active-step4 .col-3:nth-child(-n+3),
@@ -77,6 +83,7 @@
 .active-step6 .col-3:nth-child(-n+5){
     opacity: 0.5;
 }
+
 /*Check inside passed activies*/
 .active-step2 .col-3:first-child 	 .process-step:before,
 .active-step3 .col-3:nth-child(-n+2) .process-step:before,
@@ -84,8 +91,9 @@
 .active-step5 .col-3:nth-child(-n+4) .process-step:before,
 .active-step6 .col-3:nth-child(-n+5) .process-step:before{
     content: '\2713';
-    padding: 7px;
+    padding: 2px;
 }
+
 /*Color of passed and active*/
 .active-step2 .col-3:nth-child(-n+1) .process-step,
 .active-step2 .col-3:nth-child(-n+1) .process-dots,
@@ -99,6 +107,7 @@
 .active-step6 .col-3:nth-child(-n+5) .process-dots {
     background-color: #01426a;
 }
+
 /* Label Colors */
 .active-step2 .col-3:nth-child(-n+1) .process-label,
 .active-step3 .col-3:nth-child(-n+2) .process-label,
@@ -107,6 +116,7 @@
 .active-step6 .col-3:nth-child(-n+5) .process-label{
     color: #01426a;
 }
+
 /* Inside passed process step */
 .active-step2 .col-3:nth-child(-n+2):before,
 .active-step3 .col-3:nth-child(-n+3):before,
@@ -115,6 +125,7 @@
 .active-step6 .col-3:nth-child(-n+6):before{
     background: #01426a !important;
 }
+
 .active-step1 .col-3:nth-child(1) .process-label,
 .active-step2 .col-3:nth-child(2) .process-label,
 .active-step3 .col-3:nth-child(3) .process-label,
@@ -123,6 +134,7 @@
 .active-step6 .col-3:nth-child(6) .process-label{
 	color: #71DBD4;
 }
+
 .active-step1 .col-3:nth-child(1) .process-step,
 .active-step1 .col-3:nth-child(1) .process-dots,
 .active-step2 .col-3:nth-child(2) .process-step,
