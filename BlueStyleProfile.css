@@ -56,19 +56,6 @@
 	background: linear-gradient(90deg,#01426A,#71DBD4);
 }
 
-/* Views Header - Size */
-.theme-entry.amo .grid-header-wrapper,
-.theme-entry.amo .panel-header,
-.theme-entry.amo .panel-header-c,
-.theme-entry.amo .panel-header-wrapper {
-    min-height: 5rem;
-}
-
-.theme-entry.amo .grid-header-wrapper .grid-header-text, 
-.theme-entry.amo .panel-header-wrapper .panel-header-text {
-    font-size: 1.7rem !important;
-}
-
 /* Views Border */
  .theme-entry.amo .view>.innerpanel
 ,.theme-entry.amo .view-canvas>.innerpanel{
