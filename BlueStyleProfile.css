@@ -42,7 +42,7 @@
 .theme-entry.amo .row.header .view>.innerpanel, .theme-entry.amo .row.header .view-canvas>.innerpanel {
     border: none;
 }
-
+/*
 .theme-entry.amo .grid-header-wrapper, 
 .theme-entry.amo .panel-header, 
 .theme-entry.amo .panel-header-c, 
@@ -56,7 +56,7 @@
 .theme-entry.amo .panel-header-wrapper .panel-header-text {
     font-size: 1.5rem !important;
 }
-
+*/
 /* Hide Tabs */
 .theme-entry.amo  .tab-box ul.tab-box-tabs.hidetabs{
 	display: none;
