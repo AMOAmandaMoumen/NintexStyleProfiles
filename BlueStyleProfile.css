@@ -56,6 +56,19 @@
 	background: linear-gradient(90deg,#01426A,#71DBD4);
 }
 
+/* Views Header - Size */
+.theme-entry.amo .grid-header-wrapper,
+.theme-entry.amo .panel-header,
+.theme-entry.amo .panel-header-c,
+.theme-entry.amo .panel-header-wrapper {
+    min-height: 5rem;
+}
+
+.theme-entry.amo .grid-header-wrapper .grid-header-text, 
+.theme-entry.amo .panel-header-wrapper .panel-header-text {
+    font-size: 1.7rem !important;
+}
+
 /* Views Border */
  .theme-entry.amo .view>.innerpanel
 ,.theme-entry.amo .view-canvas>.innerpanel{
@@ -66,8 +79,8 @@
 /* Datalabels KPIs Borders */
 .theme-entry.amo .kpis h3{	
     padding: 13px;
-    color: #71DBD4;
-    text-shadow: 1px 1px 1px lightskyblue;
+    color: #01426A;
+    text-shadow: 1px 1px 1px #71DBD4;
     -moz-box-shadow: 0px 0px 22px -3px rgba(0,0,0,0.5);
     margin-bottom: 15px;
     margin-top: 12px;
@@ -81,4 +94,9 @@
 	height: 70px;
 }
 
+/* All Footer Size*/
+.theme-entry .grid-footer .toolbar, 
+.theme-entry .grid-footer .toolbars.single .toolbar {
+    min-height: 3.7rem;
+}
 
