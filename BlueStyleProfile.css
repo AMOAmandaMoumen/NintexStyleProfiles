@@ -50,6 +50,13 @@
     min-height: 4rem;
 }
 
+#pgWizard .theme-entry.amo .grid-header-wrapper .inline-editable, 
+#pgWizard .theme-entry.amo .panel-header-wrapper .inline-editable, 
+.theme-entry.amo .grid-header-wrapper .grid-header-text, 
+.theme-entry.amo .panel-header-wrapper .panel-header-text {
+    font-size: 1.5rem !important;
+}
+
 /* Hide Tabs */
 .theme-entry.amo  .tab-box ul.tab-box-tabs.hidetabs{
 	display: none;
