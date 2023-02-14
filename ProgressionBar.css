@@ -6,15 +6,16 @@
 #01426a
 #71DBD4
 */
+
 .process-wrap {
-  width: 100%;
+	width: 100%;
 }
 .process-main {
     display: flex;
 }
 .col-3 {
-  width: 17%;
-  position: relative;
+	width: 20%;
+	position: relative;
 }
 .process-main .col-3:not(:first-child):before{
     content: "";
@@ -38,12 +39,13 @@
 .process-step-cont {
     font-size: 14px;
     white-space: nowrap;
-    /*display: flex;*/
-	margin-left: 40%;
-	position: relative;
+    display: flex;
+    /* margin-left: 40%; */
+    /* position: absolute; */
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    position: sticky;
 }
 .process-step {
     border: 5px #ebebeb solid;
