@@ -100,3 +100,8 @@
 .mobile .theme-entry.amo .row.header .view.header-left {
     width: 100% !important;
 }
+/*
+.mobile .formcontrol .innerpanel>*.SourceCode-Forms-Controls-Web-Table.Grid-Layout {
+	display: table;
+}
+*/
