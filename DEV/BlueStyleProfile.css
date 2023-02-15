@@ -123,8 +123,10 @@
 	padding-left: var(--control-inset-horizontal-spacing);	
 }
 
-/*
-.mobile .formcontrol .innerpanel>*.SourceCode-Forms-Controls-Web-Table.Grid-Layout {
+.mobile .formcontrol.kpis .innerpanel>*.SourceCode-Forms-Controls-Web-Table.Grid-Layout {
 	display: table;
 }
-*/
+
+.mobile .theme-entry.amo .view.progressionbar {
+    display: none;
+}
