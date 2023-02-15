@@ -38,4 +38,3 @@ renderKPIs = () => {
 renderProgressionBar = () => {
     $('.process-wrap').closest('.view').addClass('progressionbar');
 }
-
