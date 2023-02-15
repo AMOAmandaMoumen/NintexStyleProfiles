@@ -124,11 +124,11 @@
 }
 
 .mobile .formcontrol.kpis .innerpanel>*.SourceCode-Forms-Controls-Web-Table.Grid-Layout {
-	display: table;
+	display: table!important;
 }
 
 .mobile .theme-entry.amo .view.progressionbar {
-    display: none;
+    display: none !important;
 }
 
 .mobile .view .panel-body-wrapper span[name*="HideIfMobile"] {
