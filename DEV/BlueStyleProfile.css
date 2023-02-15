@@ -92,7 +92,6 @@
     min-height: 3.7rem;
 }
 
-
 /* Mobile */
 .mobile .theme-entry.amo .runtime-form, .mobile #WorkflowStrip {
     width: 95%!important;
@@ -109,6 +108,7 @@
 .mobile .theme-entry.amo .row.header .view.header-left {
     width: 100% !important;
 }
+
 .mobile .theme-entry.amo .root-table.Grid-Layout>.editor-cell, 
 .mobile .theme-entry.amo .root-table.editor-grid>.editor-cell {
     padding-left: var(--block-inset-horizontal-spacing);
