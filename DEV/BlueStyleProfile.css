@@ -123,14 +123,16 @@
 	padding-left: var(--control-inset-horizontal-spacing);	
 }
 
-.mobile .formcontrol .innerpanel>*.SourceCode-Forms-Controls-Web-Table.Grid-Layout {
-    display: table!important;
-}
-
 .mobile .theme-entry.amo .view.progressionbar {
     display: none !important;
 }
 
 .mobile .view .panel-body-wrapper span[name*="HideIfMobile"] {
     display: none!important;
+}
+
+@media only screen and (max-width: 500px) {
+   .mobile .formcontrol .innerpanel>*.SourceCode-Forms-Controls-Web-Table.Grid-Layout {
+    display: table!important;
+	}
 }
