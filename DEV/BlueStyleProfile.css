@@ -92,7 +92,16 @@
     min-height: 3.7rem;
 }
 
+
 /* Mobile */
+.mobile .theme-entry.amo .runtime-form, .mobile #WorkflowStrip {
+    width: 90%!important;
+}
+
+.mobile .theme-entry.amo .runtime-content {
+    margin: 5px!important;
+}
+
 .mobile .theme-entry.amo .row.header .view.header-right.translatorView {
     display: none;
 }
@@ -100,6 +109,7 @@
 .mobile .theme-entry.amo .row.header .view.header-left {
     width: 100% !important;
 }
+
 /*
 .mobile .formcontrol .innerpanel>*.SourceCode-Forms-Controls-Web-Table.Grid-Layout {
 	display: table;
