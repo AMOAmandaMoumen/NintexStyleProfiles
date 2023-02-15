@@ -87,8 +87,8 @@
 }
 
 /* All Footer Size*/
-.theme-entry .grid-footer .toolbar, 
-.theme-entry .grid-footer .toolbars.single .toolbar {
+.theme-entry.amo .grid-footer .toolbar, 
+.theme-entry.amo .grid-footer .toolbars.single .toolbar {
     min-height: 3.7rem;
 }
 
