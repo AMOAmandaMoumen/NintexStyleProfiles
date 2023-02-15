@@ -109,6 +109,11 @@
 .mobile .theme-entry.amo .row.header .view.header-left {
     width: 100% !important;
 }
+.mobile .theme-entry.amo .root-table.Grid-Layout>.editor-cell[col='1'], 
+.mobile .theme-entry.amo .root-table.editor-grid>.editor-cell[col='1'] {
+    padding-left: var(--block-inset-horizontal-spacing);
+}
+
 
 /*
 .mobile .formcontrol .innerpanel>*.SourceCode-Forms-Controls-Web-Table.Grid-Layout {
