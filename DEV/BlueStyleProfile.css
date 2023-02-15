@@ -6,7 +6,7 @@
 .theme-entry.amo{
     --view-rounding: 5px;
 	--button-rounding: 5px;
-	--main-text-size: 1.4rem;
+	--main-text-size: 1.4rem;	
 }
 
 /* Views Header */
@@ -83,3 +83,11 @@
     min-height: 3.7rem;
 }
 
+/* Mobile */
+.mobile .theme-entry.amo .row.header .view.header-right.translatorView {
+    display: none;
+}
+
+.mobile .theme-entry.amo .row.header .view.header-left {
+    width: 100% !important;
+}
