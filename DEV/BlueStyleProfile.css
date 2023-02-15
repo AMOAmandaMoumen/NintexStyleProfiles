@@ -17,6 +17,9 @@
 	--button-rounding: 5px;
 	--main-text-size: 1.4rem;	
 }
+.mobile .theme-entry.amo{
+	--control-inset-vertical-spacing: 1rem;
+}
 
 /* Views Header */
 .theme-entry.amo .row.header{	
@@ -112,6 +115,12 @@
 .mobile .theme-entry.amo .root-table.Grid-Layout>.editor-cell, 
 .mobile .theme-entry.amo .root-table.editor-grid>.editor-cell {
     padding-left: var(--block-inset-horizontal-spacing);
+	padding-right: var(--block-inset-horizontal-spacing);
+}
+
+.mozilla .theme-entry.amo input.SFC.SourceCode-Forms-Controls-Web-TextBox, 
+.webkit.safari .theme-entry.amo input.SFC.SourceCode-Forms-Controls-Web-TextBox {
+	padding-left: var(--control-inset-horizontal-spacing);	
 }
 
 /*
