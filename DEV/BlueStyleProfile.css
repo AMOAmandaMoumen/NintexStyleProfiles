@@ -130,3 +130,7 @@
 .mobile .theme-entry.amo .view.progressionbar {
     display: none;
 }
+
+.mobile .view .panel-body-wrapper span[name*="HideIfMobile"] {
+    display: none!important;
+}
