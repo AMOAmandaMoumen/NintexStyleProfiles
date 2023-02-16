@@ -2,135 +2,273 @@
 	AMO CONSULTANCY - Custom Theme - 02/2023
 */
 
-/* Customer Colors Codes
-	#01426A - Blue
-	#26D07C - Green
-	#FF8D6D - Orange
-	#FFD100 - Yellow
-	#71DBD4 - Turquoise
-	#5B6770 - Grey
-*/
-
 /* Variables */
 .theme-entry.amo{
-    --view-rounding: 5px;
-	--button-rounding: 5px;
-	--main-text-size: 1.4rem;	
+    /*
+	--error-text-color: #b71c1c;
+    color: var(--normal-text-color);
+    --normal-text-color: #010101;
+    --description-text-color: #010101;
+    --paragraph-text-color: #010101;
+    --page-title-text-color: #a7691d;
+    --page-subtitle-text-color: #b17c3c;
+    --heading1-text-color: #a7691d;
+    --heading2-text-color: #a7691d;
+    --heading3-text-color: #a7691d;
+    --heading4-text-color: #a7691d;
+    --input-background-color: #dbdad8;
+    --input-border-color: #8d8d8d;
+    --input-text-color: #43413f;
+    --input-watermark-text-color: rgba(67, 65, 63, 0.5);
+    --input-disabled-background-color: rgba(219, 218, 216, 0.6);
+    --input-disabled-border-color: #827e7a;
+    --input-disabled-text-color: #827e7a;
+    --input-readonly-background-color: rgba(219, 218, 216, 0.6);
+    --input-readonly-border-color: #9b9894;
+    --input-readonly-text-color: #333130;
+    --input-label-text-color: inherit;
+    --input-label-disabled-text-color: rgba(1, 1, 1, 0.8);
+    --input-error-watermark-text-color: rgba(63, 45, 44, 0.5);
+    --input-error-background-color: #d7c7c6;
+    --input-error-border-color: #b43e3d;
+    --input-error-text-color: #3f2d2c;
+    --input-text-highlight-background-color: #fdd29d;
+    --input-text-highlight-text-color: #341d01;
+    --input-focus-border-color: #fdd29d;
+    --input-button-background-color: transparent;
+    --input-button-border-color: transparent;
+    --input-button-text-color: #43413f;
+    --input-button-hover-background-color: #fdd29d;
+    --input-button-hover-border-color: transparent;
+    --input-button-hover-text-color: #663902;
+    --input-button-focus-background-color: transparent;
+    --input-button-focus-border-color: #fdd29d;
+    --input-button-focus-text-color: #43413f;
+    --input-button-toggleon-background-color: #fdd29d;
+    --input-button-toggleon-text-color: #663902;
+    --required-indicator-background-color: #b71c1c;
+    --toolbar-button-background-color: transparent;
+    --toolbar-button-text-color: #010101;
+    --toolbar-button-border-color: transparent;
+    --toolbar-button-hover-background-color: #9d9a97;
+    --toolbar-button-hover-border-color: #9d9a97;
+    --toolbar-button-hover-text-color: white;
+    --toolbar-button-focus-background-color: transparent;
+    --toolbar-button-focus-border-color: #fdd29d;
+    --toolbar-button-focus-text-color: #010101;
+    --toolbar-button-toggle-background-color: #fdd29d;
+    --toolbar-button-disabled-background-color: transparent;
+    --toolbar-button-disabled-border-color: transparent;
+    --toolbar-button-disabled-text-color: #6a6764;
+    --slider-handle-background-color: #dadada;
+    --slider-handle-border-color: transparent;
+    --slider-handle-hover-background-color: #fdd29d;
+    --slider-handle-hover-border-color: transparent;
+    --slider-handle-disabled-background-color: #cccac9;
+    --slider-handle-disabled-border-color: #827e7a;
+    --slider-handle-readonly-background-color: gray;
+    --slider-handle-readonly-border-color: gray;
+    --slider-handle-focus-background-color: #fdd29d;
+    --slider-handle-focus-border-color: #fcbb6b;
+    --slider-rail-border-color: transparent;
+    --slider-rail-background-color: gray;
+    --slider-handle-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    --file-upload-background-color: transparent;
+    --file-upload-border-color: #6a6764;
+    --file-upload-text-color: #1b1a1a;
+    --file-upload-empty-background-color: transparent;
+    --file-upload-empty-border-color: #6a6764;
+    --file-upload-empty-text-color: #1b1a1a;
+    --file-upload-watermark-text-color: rgba(27, 26, 26, 0.5);
+    --file-upload-empty-hover-background-color: #84817c;
+    --file-upload-focus-border-color: #fdd29d;
+    --file-upload-hover-background-color: transparent;
+    --file-upload-hover-border-color: #6a6764;
+    --file-upload-hover-text-color: #161515;
+    --file-upload-disabled-background-color: transparent;
+    --file-upload-disabled-border-color: #6a6764;
+    --file-upload-disabled-text-color: #6a6764;
+    --loader-track-background-color: #e7e6e6;
+    --loader-progress-background-color: #fdd29d;
+    --button-background-color: #676767;
+    --button-border-color: #676767;
+    --button-text-color: white;
+    --button-hover-background-color: gray;
+    --button-hover-border-color: gray;
+    --button-hover-text-color: white;
+    --button-focus-background-color: #676767;
+    --button-focus-border-color: #fdd29d;
+    --button-focus-text-color: #e6e6e6;
+    --button-focus-shadow-color: none;
+    --button-hover-focus-background-color: gray;
+    --button-hover-focus-border-color: #fdd29d;
+    --button-disabled-background-color: #676767;
+    --button-disabled-border-color: #676767;
+    --button-disabled-text-color: #e6e6e6;
+    --button-shadow-color: none;
+    --primary-button-background-color: #fcbb6b;
+    --primary-button-border-color: #fcbb6b;
+    --primary-button-text-color: #271c0e;
+    --primary-button-hover-background-color: #fdd29d;
+    --primary-button-hover-border-color: #fdd29d;
+    --primary-button-hover-text-color: #271c0e;
+    --primary-button-focus-background-color: #fcbb6b;
+    --primary-button-focus-border-color: white;
+    --primary-button-focus-text-color: white;
+    --quiet-button-background-color: transparent;
+    --quiet-button-border-color: #343434;
+    --quiet-button-text-color: #343434;
+    --quiet-button-hover-background-color: rgba(52, 52, 52, 0.2);
+    --quiet-button-hover-border-color: #343434;
+    --quiet-button-hover-text-color: #343434;
+    --quiet-button-focus-background-color: transparent;
+    --quiet-button-focus-border-color: white;
+    --quiet-button-focus-text-color: #343434;
+    --quiet-button-disabled-background-color: transparent;
+    --quiet-button-disabled-border-color: #343434;
+    --quiet-button-disabled-text-color: #343434;
+    --destructive-button-background-color: #b71c1c;
+    --destructive-button-border-color: #b71c1c;
+    --destructive-button-text-color: white;
+    --destructive-button-hover-background-color: #e03939;
+    --destructive-button-hover-border-color: #e03939;
+    --destructive-button-hover-text-color: white;
+    --destructive-button-focus-background-color: #b71c1c;
+    --destructive-button-focus-border-color: white;
+    --destructive-button-focus-text-color: white;
+    --help-button-background-color: transparent;
+    --help-button-border-color: transparent;
+    --help-button-focus-background-color: transparent;
+    --help-button-focus-border-color: #fdd29d;
+    --icon-button-hover-background-color-2: transparent;
+    --icon-button-hover-background-color: transparent;
+    --hyperlink-text-color: #fdd29d;
+    --hyperlink-disabled-text-color: white;
+    --hyperlink-focus-border-color: #fdd29d;
+    --smartfield-background-color: #43413f;
+    --smartfield-text-color: #dbdad8;
+    --calendar-background-color: white;
+    --calendar-text-color: #666666;
+    --calendar-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    --calendar-separator-line-color: #cccccc;
+    --calendar-item-background-color: transparent;
+    --calendar-item-border-color: transparent;
+    --calendar-item-text-color: gray;
+    --calendar-item-disabled-text-color: rgba(128, 128, 128, 0.7);
+    --calendar-item-hover-background-color: #e6e6e6;
+    --calendar-item-hover-border-color: #e6e6e6;
+    --calendar-item-hover-text-color: gray;
+    --calendar-day-header-text-color: rgba(102, 102, 102, 0.4);
+    --calendar-navigation-button-background-color: transparent;
+    --calendar-navigation-button-border-color: #cccccc;
+    --calendar-navigation-button-text-color: #666666;
+    --calendar-navigation-button-hover-background-color: #fdd29d;
+    --calendar-navigation-button-hover-border-color: #fdd29d;
+    --calendar-navigation-button-hover-text-color: #663902;
+    --calendar-today-border-color: #cccccc;
+    --calendar-selected-item-background-color: #fdd29d;
+    --calendar-selected-item-border-color: #fdd29d;
+    --calendar-selected-item-text-color: #663902;
+    --pill-background-color: rgba(169, 167, 164, 0.4);
+    --pill-text-color: #fba439;
+    --pill-selected-background-color: #fdd29d;
+    --pill-selected-text-color: #5c3402;
+    --pill-error-background-color: rgba(191, 113, 112, 0.4);
+    --pill-error-text-color: #8b1515;
+    --tooltip-background-color: white;
+    --tooltip-border-color: #cccccc;
+    --tooltip-text-color: #666666;
+    --tooltip-error-background-color: #b71c1c;
+    --tooltip-error-border-color: #b71c1c;
+    --tooltip-error-text-color: white;
+    --tooltip-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+    --tree-item-hover-background-color: rgba(253, 210, 157, 0.2);
+    --tree-item-hover-border-color: #e2d8cd;
+    --tree-item-hover-text-color: #4e402e;
+    --tree-item-selected-background-color: #fdd29d;
+    --tree-item-selected-border-color: #fdd29d;
+    --tree-item-selected-text-color: #663902;
+    --tree-item-focus-border-color: #fdd29d;
+    --tree-item-rounding: 3px;
+    --chart-background-color: #cecdcb;
+    --chart-border-color: gray;
+    --chart-header-background-color: transparent;
+    --chart-title-text-color: #1b1a1a;
+    --chart-label-text-color: #1b1a1a;
+    --chart-series-0: #fdd29d;
+    --chart-series-1: #9dc8fd;
+    --chart-series-2: #9dfdc2;
+    --chart-series-3: #e9d0b1;
+    --chart-series-4: #b1cae9;
+    --chart-series-5: #b1e9c7;
+    --chart-series-6: #dacec0;
+    --chart-series-7: #c0ccda;
+    --chart-series-8: #c0daca;
+    --chart-series-9: #d0cdca;
+    --chart-series-10: #cacdd0;
+    --chart-series-11: #cad0cc;
+    --badge-error-background-color: #b71c1c;
+    --badge-warning-background-color: #ffc107;
+    --search-highlight-background-color: #ffdb00;
+    --search-highlight-background-color-1: #ffdb00;
+    --search-highlight-text-color: black;
+    --list-background-color: #dbdad8;
+    --list-border-color: #8d8d8d;
+    --list-error-background-color: #d7c7c6;
+    --list-error-border-color: #b43e3d;
+    --list-error-text-color: #ad8c89;
+    --list-readonly-background-color: rgba(219, 218, 216, 0.6);
+    --list-readonly-border-color: #9b9894;
+    --list-readonly-text-color: #333130;
+    --list-column-header-background-color: #cccac9;
+    --list-column-header-text-color: #676561;
+    --list-column-header-border-color: #b2b0ad;
+    --list-column-header-divider-color: white;
+    --list-column-header-focus-border-color: #fdd29d;
+    --list-add-row-background-color: transparent;
+    --list-item-background-color: transparent;
+    --list-item-background-color-odd-zebra: transparent;
+    --list-item-background-color-even-zebra: #cecdcb;
+    --list-item-text-color: #43413f;
+    --list-item-description-text-color: inherit;
+    --list-item-hover-background-color: rgba(253, 210, 157, 0.3);
+    --list-item-hover-border-color: white;
+    --list-item-hover-text-color: #533f26;
+    --list-item-focus-border-color: #fdd29d;
+    --list-item-error-border-color: #b71c1c;
+    --list-item-selected-background-color: #fdd29d;
+    --list-item-selected-border-color: #fdd29d;
+    --list-item-selected-text-color: #663902;
+    --list-footer-inset-shadow-color: rgba(0, 0, 0, 0.165);
+    --list-action-button-background-color: #c2c0be;
+    --list-action-button-text-color: #282726;
+    --list-action-button-hover-background-color: #a9a7a4;
+    --list-action-button-hover-text-color: white;
+    --list-summary-background-color: #dbdad8;
+    --list-summary-separator-line-color: #c2c0be;
+    --tab-background-color: transparent;
+    --tab-text-color: #1b1a1a;
+    --tab-focus-border-color: #fdd29d;
+    --tab-hover-background-color: transparent;
+    --tab-hover-text-color: #161515;
+    --tab-disabled-background-color: transparent;
+    --tab-disabled-text-color: transparent;
+    --tab-selected-background-color: #9d9a97;
+    --tab-selected-text-color: white;
+    --main-tab-selected-background-color: white;
+    --main-tab-selected-text-color: #616161;
+    --tab-body-background-color: #9d9a97;
+    --segmented-tab-bar-background-color: #9a9a9a;
+    --segmented-tab-bar-border-color: #cdcdcd;
+    --segmented-tab-background-color: transparent;
+    --segmented-tab-text-color: white;
+    --segmented-tab-selected-text-color: #343434;
+    --segmented-tab-hover-background-color: #b3b3b3;
+    --segmented-tab-hover-text-color: #1a1a1a;
+    --segmented-tab-disabled-background-color: transparent;
+    --segmented-tab-disabled-text-color: transparent;
+    --segmented-tab-selected-background-color: #cdcdcd;
+    --segmented-tab-selected-border-color: #343434;
+	*/
 }
-.mobile .theme-entry.amo{
-	--control-inset-vertical-spacing: 1rem;
-}
-
-/* Views Header */
-.theme-entry.amo .row.header{	
-	border-bottom: 2px solid lightgrey;
-	background-color: white;
-}
-.theme-entry.amo .row.header .view.header-left{	
-	width: 80% !important;
-	margin: 0px !important;
-}
-.theme-entry.amo .row.header .view.header-right{	
-	width: 17% !important;
-	margin-top: 20px !important;
-}
-.theme-entry.amo .row.header .view.header-left a.SourceCode-Forms-Controls-Web-Button:hover {
-    color: #71DBD4;
-}
-.theme-entry.amo .row.header .view.header-left a.SourceCode-Forms-Controls-Web-Button {
-    color: #01426A;
-    width: auto;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-size: initial;
-    text-transform: uppercase;
-    border: none;
-    background-color: white;
-    border-right: 3px solid #01426A;
-    border-radius: 0px;
-    font-weight: 600;
-}
-.theme-entry.amo .row.header .view.header-left a.SourceCode-Forms-Controls-Web-Button:last-child {
-    border: none;
-}
-.theme-entry.amo .row.header .view>.innerpanel, .theme-entry.amo .row.header .view-canvas>.innerpanel {
-    border: none;
-}
-
-/* Hide Tabs */
-.theme-entry.amo  .tab-box ul.tab-box-tabs.hidetabs{
-	display: none;
-}
-
-/* Views Header - Gradient Color */
- .theme-entry.amo .view .panel-header-wrapper
-,.theme-entry.amo .view-canvas .panel-header-wrapper
-,.theme-entry.amo .view .grid-header-wrapper
-,.theme-entry.amo .view-canvas .grid-header-wrapper{
-	background: linear-gradient(90deg,#01426A,#71DBD4);
-}
-
-/* Views Border */
- .theme-entry.amo .view>.innerpanel
-,.theme-entry.amo .view-canvas>.innerpanel{
-    border-radius: var(--view-rounding);
-    border: 1px solid lightgrey;	
-}
-
-/* Datalabels KPIs Borders */
-.theme-entry.amo .kpis h3 {
-    padding: 12px;
-    color: #01426A;
-    text-shadow: 1px 1px 1px #71DBD4;
-    -moz-box-shadow: 0px 0px 22px -3px rgba(0,0,0,0.5);
-    border: 2px solid lightgrey;
-    border-radius: 7px;
-    -moz-box-shadow: 0px 0px 6px 8px rgba(211,211,211,1);
-    background-color: white;
-    width: 100%;
-    height: auto;
-}
-
-/* All Footer Size*/
-.theme-entry.amo .grid-footer .toolbar, 
-.theme-entry.amo .grid-footer .toolbars.single .toolbar {
-    min-height: 3.7rem;
-}
-
-/* Mobile */
-.mobile .theme-entry.amo .runtime-form, .mobile #WorkflowStrip {
-    width: 95%!important;
-}
-
-.mobile .theme-entry.amo .runtime-content {
-    margin: 5px!important;
-}
-
-.mobile .theme-entry.amo .row.header .view.header-right.translatorView {
-    display: none;
-}
-
-.mobile .theme-entry.amo .row.header .view.header-left {
-    width: 100% !important;
-}
-
-.mobile .theme-entry.amo .root-table.Grid-Layout>.editor-cell, 
-.mobile .theme-entry.amo .root-table.editor-grid>.editor-cell {
-    padding-left: var(--block-inset-horizontal-spacing);
-	padding-right: var(--block-inset-horizontal-spacing);
-}
-
-.mozilla .theme-entry.amo input.SFC.SourceCode-Forms-Controls-Web-TextBox, 
-.webkit.safari .theme-entry.amo input.SFC.SourceCode-Forms-Controls-Web-TextBox {
-	padding-left: var(--control-inset-horizontal-spacing);	
-}
-
-.mobile .view .panel-body-wrapper span[name*="HideIfMobile"] {
-    display: none!important;
-}
-
-@media only screen and (max-width: 500px) {
-   .mobile .formcontrol .innerpanel>*.SourceCode-Forms-Controls-Web-Table.Grid-Layout {
-    display: table!important;
-	}
 }
