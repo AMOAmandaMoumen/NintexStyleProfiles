@@ -125,10 +125,6 @@
 	padding-left: var(--control-inset-horizontal-spacing);	
 }
 
-.mobile .theme-entry.amo .view.progressionbar {
-    display: none !important;
-}
-
 .mobile .view .panel-body-wrapper span[name*="HideIfMobile"] {
     display: none!important;
 }
