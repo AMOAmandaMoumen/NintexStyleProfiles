@@ -2,11 +2,23 @@
 	AMO CONSULTANCY - Custom Theme - 02/2023
 */
 
+/* Customer Colors Codes
+	#01426A - Blue
+	#26D07C - Green
+	#FF8D6D - Orange
+	#FFD100 - Yellow
+	#71DBD4 - Turquoise
+	#5B6770 - Grey
+*/
+
 /* Variables */
 .theme-entry.amo{
     --view-rounding: 5px;
 	--button-rounding: 5px;
-	--main-text-size: 1.4rem;
+	--main-text-size: 1.4rem;	
+}
+.mobile .theme-entry.amo{
+	--control-inset-vertical-spacing: 1rem;
 }
 
 /* Views Header */
@@ -27,7 +39,9 @@
 }
 .theme-entry.amo .row.header .view.header-left a.SourceCode-Forms-Controls-Web-Button {
     color: #01426A;
-    width: 200px;
+    width: auto;
+    padding-left: 5%;
+    padding-right: 5%;
     font-size: initial;
     text-transform: uppercase;
     border: none;
@@ -74,12 +88,53 @@
     -moz-box-shadow: 0px 0px 6px 8px rgba(211,211,211,1);
     background-color: white;
     width: 100%;
-    height: 50px;
+    height: auto;
 }
 
 /* All Footer Size*/
-.theme-entry .grid-footer .toolbar, 
-.theme-entry .grid-footer .toolbars.single .toolbar {
+.theme-entry.amo .grid-footer .toolbar, 
+.theme-entry.amo .grid-footer .toolbars.single .toolbar {
     min-height: 3.7rem;
 }
 
+/* Mobile */
+.mobile .theme-entry.amo .runtime-form, .mobile #WorkflowStrip {
+    width: 95%!important;
+}
+
+.mobile .theme-entry.amo .runtime-content {
+    margin: 5px!important;
+}
+
+.mobile .theme-entry.amo .row.header .view.header-right.translatorView {
+    display: none;
+}
+
+.mobile .theme-entry.amo .row.header .view.header-left {
+    width: 100% !important;
+}
+
+.mobile .theme-entry.amo .root-table.Grid-Layout>.editor-cell, 
+.mobile .theme-entry.amo .root-table.editor-grid>.editor-cell {
+    padding-left: var(--block-inset-horizontal-spacing);
+	padding-right: var(--block-inset-horizontal-spacing);
+}
+
+.mozilla .theme-entry.amo input.SFC.SourceCode-Forms-Controls-Web-TextBox, 
+.webkit.safari .theme-entry.amo input.SFC.SourceCode-Forms-Controls-Web-TextBox {
+	padding-left: var(--control-inset-horizontal-spacing);	
+}
+
+.mobile .theme-entry.amo .view.progressionbar {
+    display: none !important;
+}
+
+.mobile .view .panel-body-wrapper span[name*="HideIfMobile"] {
+    display: none!important;
+}
+
+@media only screen and (max-width: 500px) {
+   .mobile .formcontrol .innerpanel>*.SourceCode-Forms-Controls-Web-Table.Grid-Layout {
+    display: table!important;
+	}
+}

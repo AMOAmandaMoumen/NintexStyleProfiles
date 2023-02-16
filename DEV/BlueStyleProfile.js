@@ -21,7 +21,6 @@ enableTheme = () => {
 render = () => {
     renderHeader();
     renderKPIs();
-	renderProgressionBar();
 }
 
 renderHeader = () => {    
@@ -33,8 +32,4 @@ renderHeader = () => {
 
 renderKPIs = () => {
     $('div[name="' + KPI_TABLE_NAME + '"]').closest('.formcontrol').addClass('kpis');
-}
-
-renderProgressionBar = () => {
-    $('.process-wrap').closest('.view').addClass('progressionbar');
 }
