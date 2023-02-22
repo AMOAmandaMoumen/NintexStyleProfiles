@@ -40,9 +40,8 @@
 .theme-entry.amo .row.header .view.header-left a.SourceCode-Forms-Controls-Web-Button {
     color: #01426A;
     width: auto;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-size: initial;
+    padding-left: 2%;
+    padding-right: 2%;	
     text-transform: uppercase;
     border: none;
     background-color: white;
