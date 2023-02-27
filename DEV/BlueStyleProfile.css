@@ -94,6 +94,12 @@
 .theme-entry.amo .grid-footer .toolbar, 
 .theme-entry.amo .grid-footer .toolbars.single .toolbar {
     min-height: 3.7rem;
+}*
+
+/* All text box watermarks */
+.theme-entry.amo .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark,
+.theme-entry.amo .input-control-watermark {
+    font-size: --main-text-size;
 }
 
 /* Mobile */
@@ -136,10 +142,10 @@
 
 @media only screen and (max-device-width: 480px) and (orientation: portrait)
 ,only screen and (max-device-width: 850px) and (orientation: landscape){
-	 .mobile .theme-entry.amo .menu
-	,.mobile .theme-entry.amo .popup
-	,.mobile .theme-entry.amo .dialog
-	,.mobile .theme-entry.amo .dialog#PickerSearchDialog {
+	.mobile .theme-entry.amo .menu,
+	.mobile .theme-entry.amo .popup,
+	.mobile .theme-entry.amo .dialog,
+	.mobile .theme-entry.amo .dialog#PickerSearchDialog {
 		position: absolute!important;
 		left: 0!important;
 		right: 0!important;
