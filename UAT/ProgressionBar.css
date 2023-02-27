@@ -9,6 +9,7 @@
 	#FFD100 - Yellow
 	#71DBD4 - Turquoise
 	#5B6770 - Grey
+	#2eb8ae - Darker Turquoise
 */
 
 .process-wrap {
@@ -136,7 +137,7 @@
 .active-step4 .col-3:nth-child(4) .process-label,
 .active-step5 .col-3:nth-child(5) .process-label,
 .active-step6 .col-3:nth-child(6) .process-label{
-	color: #71DBD4;
+	color: #2eb8ae;
 }
 
 .active-step1 .col-3:nth-child(1) .process-step,
@@ -151,5 +152,5 @@
 .active-step5 .col-3:nth-child(5) .process-dots,
 .active-step6 .col-3:nth-child(6) .process-step,
 .active-step6 .col-3:nth-child(6) .process-dots {
-    background-color: #71DBD4;
+    background-color: #2eb8ae;
 }

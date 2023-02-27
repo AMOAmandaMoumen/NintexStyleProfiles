@@ -17,6 +17,11 @@
 	--button-rounding: 5px;
 	--main-text-size: 1.4rem;	
 }
+
+body{
+	background-size: 100% !important;
+}
+
 .mobile .theme-entry.amo{
 	--control-inset-vertical-spacing: 1rem;
 }
@@ -32,7 +37,7 @@
 }
 .theme-entry.amo .row.header .view.header-right{	
 	width: 17% !important;
-	margin-top: 20px !important;
+	margin-top: 15px !important;
 }
 .theme-entry.amo .row.header .view.header-left a.SourceCode-Forms-Controls-Web-Button:hover {
     color: #71DBD4;
@@ -40,9 +45,8 @@
 .theme-entry.amo .row.header .view.header-left a.SourceCode-Forms-Controls-Web-Button {
     color: #01426A;
     width: auto;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-size: initial;
+    padding-left: 2%;
+    padding-right: 2%;	
     text-transform: uppercase;
     border: none;
     background-color: white;
@@ -95,6 +99,12 @@
 .theme-entry.amo .grid-footer .toolbar, 
 .theme-entry.amo .grid-footer .toolbars.single .toolbar {
     min-height: 3.7rem;
+}*
+
+/* All text box watermarks */
+.theme-entry.amo .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark,
+.theme-entry.amo .input-control-watermark {
+    font-size: var(--main-text-size);
 }
 
 /* Mobile */
@@ -125,12 +135,33 @@
 	padding-left: var(--control-inset-horizontal-spacing);	
 }
 
-.mobile .view .panel-body-wrapper span[name*="HideIfMobile"] {
+.mobile .theme-entry.amo .view .panel-body-wrapper span[name*="HideIfMobile"] {
     display: none!important;
 }
 
 @media only screen and (max-width: 500px) {
-   .mobile .formcontrol .innerpanel>*.SourceCode-Forms-Controls-Web-Table.Grid-Layout {
+   .mobile .theme-entry.amo .formcontrol .innerpanel>*.SourceCode-Forms-Controls-Web-Table.Grid-Layout {
     display: table!important;
 	}
 }
+
+@media only screen and (max-device-width: 480px) and (orientation: portrait)
+,only screen and (max-device-width: 850px) and (orientation: landscape){
+	.mobile .theme-entry.amo .menu,
+	.mobile .theme-entry.amo .popup,
+	.mobile .theme-entry.amo .dialog,
+	.mobile .theme-entry.amo .dialog#PickerSearchDialog {
+		position: absolute!important;
+		left: 0!important;
+		right: 0!important;
+		top: 0!important;
+		bottom: 0!important;
+		display: block;
+		height: 100%!important;
+		width: 100%!important;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+
