@@ -104,7 +104,7 @@ body .theme-entry.amo{
 /* All text box watermarks */
 .theme-entry.amo .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark,
 .theme-entry.amo .input-control-watermark {
-    font-size: --main-text-size;
+    font-size: var(--main-text-size);
 }
 
 /* Mobile */
