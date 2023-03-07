@@ -19,7 +19,7 @@
 }
 /* Body Background resized */
 body{
-	background-size: cover!important;
+	background-size: 100%!important;
 }
 
 /* Views Header */
