@@ -17,13 +17,9 @@
 	--button-rounding: 5px;
 	--main-text-size: 1.4rem;	
 }
-
+/* Body Background resized */
 body{
 	background-size: 100% !important;
-}
-
-.mobile .theme-entry.amo{
-	--control-inset-vertical-spacing: 1rem;
 }
 
 /* Views Header */
@@ -67,10 +63,10 @@ body{
 }
 
 /* Views Header - Gradient Color */
- .theme-entry.amo .view .panel-header-wrapper
-,.theme-entry.amo .view-canvas .panel-header-wrapper
-,.theme-entry.amo .view .grid-header-wrapper
-,.theme-entry.amo .view-canvas .grid-header-wrapper{
+.theme-entry.amo .view .panel-header-wrapper,
+.theme-entry.amo .view-canvas .panel-header-wrapper,
+.theme-entry.amo .view .grid-header-wrapper,
+.theme-entry.amo .view-canvas .grid-header-wrapper{
 	background: linear-gradient(90deg,#01426A,#71DBD4);
 }
 
@@ -108,45 +104,61 @@ body{
 }
 
 /* Mobile */
+
+/* Mobile - size of text */
+.mobile .theme-entry.amo{
+	--control-inset-vertical-spacing: 1rem;
+}
+
+/* Mobile - size of form views */
 .mobile .theme-entry.amo .runtime-form, .mobile #WorkflowStrip {
     width: 95%!important;
 }
 
+/* Mobile - margin inside of views */
 .mobile .theme-entry.amo .runtime-content {
     margin: 5px!important;
 }
 
+/* Mobile - do not display translator */
 .mobile .theme-entry.amo .row.header .view.header-right.translatorView {
     display: none;
 }
 
+/* Mobile - resize banner view */
 .mobile .theme-entry.amo .row.header .view.header-left {
     width: 100% !important;
 }
 
+/* Mobile - size before/after elements */
 .mobile .theme-entry.amo .root-table.Grid-Layout>.editor-cell, 
 .mobile .theme-entry.amo .root-table.editor-grid>.editor-cell {
     padding-left: var(--block-inset-horizontal-spacing);
 	padding-right: var(--block-inset-horizontal-spacing);
 }
 
+/* Mobile - size before/after elements */
 .mozilla .theme-entry.amo input.SFC.SourceCode-Forms-Controls-Web-TextBox, 
 .webkit.safari .theme-entry.amo input.SFC.SourceCode-Forms-Controls-Web-TextBox {
 	padding-left: var(--control-inset-horizontal-spacing);	
 }
 
+/* Mobile - hide empty cells */
 .mobile .theme-entry.amo .view .panel-body-wrapper span[name*="HideIfMobile"] {
     display: none!important;
 }
 
+/* Mobile - display kpis */
 @media only screen and (max-width: 500px) {
    .mobile .theme-entry.amo .formcontrol .innerpanel>*.SourceCode-Forms-Controls-Web-Table.Grid-Layout {
     display: table!important;
 	}
 }
 
-@media only screen and (max-device-width: 480px) and (orientation: portrait)
-,only screen and (max-device-width: 850px) and (orientation: landscape){
+/* Mobile - display popups 
+@media 
+only screen and (max-device-width: 480px) and (orientation: portrait),
+only screen and (max-device-width: 850px) and (orientation: landscape){
 	.mobile .theme-entry.amo .menu,
 	.mobile .theme-entry.amo .popup,
 	.mobile .theme-entry.amo .dialog,
@@ -164,4 +176,25 @@ body{
 		box-sizing: border-box;
 	}
 }
-
+*/
+@media 
+only screen and (max-device-width: 850px) and (orientation: portrait),
+only screen and (max-device-width: 1200px) and (orientation: landscape)
+{
+	.mobile .theme-entry.amo .menu, 
+	.mobile .theme-entry.amo .popup, 
+	.mobile .theme-entry.amo .dialog, 
+	.mobile .theme-entry.amo .dialog#PickerSearchDialog {
+		position: absolute!important;
+		left: 0!important;
+		right: 0!important;
+		top: 0!important;
+		bottom: 0!important;
+		display: block;
+		height: 100%!important;
+		width: 100%!important;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
