@@ -13,7 +13,7 @@
 
 /* Variables */
 .theme-entry.amo{
-    --view-rounding: 5px;
+	--view-rounding: 5px;
 	--button-rounding: 5px;
 	--main-text-size: 1.4rem;	
 }
@@ -36,25 +36,25 @@ body{
 	margin-top: 15px !important;
 }
 .theme-entry.amo .row.header .view.header-left a.SourceCode-Forms-Controls-Web-Button:hover {
-    color: #71DBD4;
+	color: #71DBD4;
 }
 .theme-entry.amo .row.header .view.header-left a.SourceCode-Forms-Controls-Web-Button {
-    color: #01426A;
-    width: auto;
-    padding-left: 2%;
-    padding-right: 2%;	
-    text-transform: uppercase;
-    border: none;
-    background-color: white;
-    border-right: 3px solid #01426A;
-    border-radius: 0px;
-    font-weight: 600;
+	color: #01426A;
+	width: auto;
+	padding-left: 2%;
+	padding-right: 2%;	
+	text-transform: uppercase;
+	border: none;
+	background-color: white;
+	border-right: 3px solid #01426A;
+	border-radius: 0px;
+	font-weight: 600;
 }
 .theme-entry.amo .row.header .view.header-left a.SourceCode-Forms-Controls-Web-Button:last-child {
-    border: none;
+	border: none;
 }
 .theme-entry.amo .row.header .view>.innerpanel, .theme-entry.amo .row.header .view-canvas>.innerpanel {
-    border: none;
+	border: none;
 }
 
 /* Hide Tabs */
@@ -73,34 +73,34 @@ body{
 /* Views Border */
  .theme-entry.amo .view>.innerpanel
 ,.theme-entry.amo .view-canvas>.innerpanel{
-    border-radius: var(--view-rounding);
-    border: 1px solid lightgrey;	
+	border-radius: var(--view-rounding);
+	border: 1px solid lightgrey;	
 }
 
 /* Datalabels KPIs Borders */
 .theme-entry.amo .kpis h3 {
-    padding: 12px;
-    color: #01426A;
-    text-shadow: 1px 1px 1px #71DBD4;
-    -moz-box-shadow: 0px 0px 22px -3px rgba(0,0,0,0.5);
-    border: 2px solid lightgrey;
-    border-radius: 7px;
-    -moz-box-shadow: 0px 0px 6px 8px rgba(211,211,211,1);
-    background-color: white;
-    width: 100%;
-    height: auto;
+	padding: 12px;
+	color: #01426A;
+	text-shadow: 1px 1px 1px #71DBD4;
+	-moz-box-shadow: 0px 0px 22px -3px rgba(0,0,0,0.5);
+	border: 2px solid lightgrey;
+	border-radius: 7px;
+	-moz-box-shadow: 0px 0px 6px 8px rgba(211,211,211,1);
+	background-color: white;
+	width: 100%;
+	height: auto;
 }
 
 /* All Footer Size*/
 .theme-entry.amo .grid-footer .toolbar, 
 .theme-entry.amo .grid-footer .toolbars.single .toolbar {
-    min-height: 3.7rem;
+	min-height: 3.7rem;
 }*
 
 /* All text box watermarks */
 .theme-entry.amo .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark,
 .theme-entry.amo .input-control-watermark {
-    font-size: var(--main-text-size);
+	font-size: var(--main-text-size);
 }
 
 /* Mobile */
@@ -112,28 +112,28 @@ body{
 
 /* Mobile - size of form views */
 .mobile .theme-entry.amo .runtime-form, .mobile #WorkflowStrip {
-    width: 95%!important;
+	width: 95%!important;
 }
 
 /* Mobile - margin inside of views */
 .mobile .theme-entry.amo .runtime-content {
-    margin: 5px!important;
+	margin: 5px!important;
 }
 
 /* Mobile - do not display translator */
 .mobile .theme-entry.amo .row.header .view.header-right.translatorView {
-    display: none;
+	display: none;
 }
 
 /* Mobile - resize banner view */
 .mobile .theme-entry.amo .row.header .view.header-left {
-    width: 100% !important;
+	width: 100% !important;
 }
 
 /* Mobile - size before/after elements */
 .mobile .theme-entry.amo .root-table.Grid-Layout>.editor-cell, 
 .mobile .theme-entry.amo .root-table.editor-grid>.editor-cell {
-    padding-left: var(--block-inset-horizontal-spacing);
+	padding-left: var(--block-inset-horizontal-spacing);
 	padding-right: var(--block-inset-horizontal-spacing);
 }
 
@@ -145,13 +145,13 @@ body{
 
 /* Mobile - hide empty cells */
 .mobile .theme-entry.amo .view .panel-body-wrapper span[name*="HideIfMobile"] {
-    display: none!important;
+	display: none!important;
 }
 
 /* Mobile - display kpis */
 @media only screen and (max-width: 500px) {
    .mobile .theme-entry.amo .formcontrol .innerpanel>*.SourceCode-Forms-Controls-Web-Table.Grid-Layout {
-    display: table!important;
+	display: table!important;
 	}
 }
 
