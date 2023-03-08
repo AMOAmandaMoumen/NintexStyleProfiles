@@ -155,7 +155,28 @@ body{
 	}
 }
 
-/* Mobile - display popups */
+/* Mobile - display popups 
+@media 
+only screen and (max-device-width: 480px) and (orientation: portrait),
+only screen and (max-device-width: 850px) and (orientation: landscape){
+	.mobile .theme-entry.amo .menu,
+	.mobile .theme-entry.amo .popup,
+	.mobile .theme-entry.amo .dialog,
+	.mobile .theme-entry.amo .dialog#PickerSearchDialog {
+		position: absolute!important;
+		left: 0!important;
+		right: 0!important;
+		top: 0!important;
+		bottom: 0!important;
+		display: block;
+		height: 100%!important;
+		width: 100%!important;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+*/
 @media 
 only screen and (max-device-width: 850px) and (orientation: portrait),
 only screen and (max-device-width: 1200px) and (orientation: landscape)
